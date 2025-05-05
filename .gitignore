@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store 
