@@ -2,16 +2,15 @@
 
 *Pronounced "em-pee-ess-top" (like 'MPS' + 'top')*
 
-**mpstop** is a minimal, fast, and user-friendly system monitor for Apple Silicon (M1/M2/M3) Macs. Inspired by tools like htop and nvitop, mpstop gives you a real-time, terminal-based view of your Mac's GPU (MPS), CPU, memory, and Python process usage. Perfect for developers, researchers, and anyone who wants to keep an eye on their Mac's performance.
+**mpstop** is a minimal, fast, and user-friendly system monitor for Apple Silicon (M1/M2/M3) Macs. Inspired by `htop` and `nvitop`, `mpstop` gives you a real-time, terminal-based view of your Mac's GPU (MPS), CPU, memory, and Python process usage. Perfect for developers, researchers, and anyone who wants to keep an eye on their Mac's performance.
 
 ---
 
 ## Features
 - Live Apple Silicon GPU (MPS) core utilization
 - System memory and CPU usage
-- Active Python processes (with user, memory %, CPU %, time, and command)
+- Active Python processes (user, memory %, CPU %, time, command)
 - Clean, minimal terminal interface
-- Lightweight and easy to use
 
 ---
 
@@ -24,7 +23,7 @@ pip install mpstop
 
 **Option 2: From source**
 ```sh
-git clone <repo-url>
+git clone https://github.com/gokulkarthik/mpstop
 cd mpstop
 pip install .
 ```
