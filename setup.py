@@ -6,12 +6,17 @@ long_description = (this_directory / "README_PYPI.md").read_text(encoding="utf-8
 
 setup(
     name='mpstop',
-    version='0.1.2',
+    version='0.1.3',
     description='Minimal Apple Silicon (MPS) system monitor, nvitop-like for Mac',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='Gokul',
     license='MIT',
+    url='https://github.com/gokulkarthik/mpstop',
+    project_urls={
+        'Source': 'https://github.com/gokulkarthik/mpstop',
+        'Tracker': 'https://github.com/gokulkarthik/mpstop/issues',
+    },
     packages=find_packages(),
     install_requires=[
         'psutil',
